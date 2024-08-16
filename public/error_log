@@ -1,0 +1,26 @@
+[31-May-2024 14:20:45 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home4/jewardzh/nt.jewarinternational.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:335
+Stack trace:
+#0 /home4/jewardzh/nt.jewarinternational.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home4/jewardzh/nt.jewarinternational.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(642): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home4/jewardzh/nt.jewarinternational.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(623): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home4/jewardzh/nt.jewarinternational.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(554): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home4/jewardzh/nt.jewarinternational.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home4/jewardzh/nt.jewarinternational.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(ParseError))
+#6 /home4/jewardzh/nt.jewarinternational.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(493): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ParseError))
+#7 /home4/jewardzh/nt.jewarinternational.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(138): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ParseError))
+#8 /home4/jewardzh/nt.jewarinternational.com/public/index.php(51): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#9 {main}
+  thrown in /home4/jewardzh/nt.jewarinternational.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 335
+[31-May-2024 14:20:49 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home4/jewardzh/nt.jewarinternational.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:335
+Stack trace:
+#0 /home4/jewardzh/nt.jewarinternational.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home4/jewardzh/nt.jewarinternational.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(642): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home4/jewardzh/nt.jewarinternational.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(623): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home4/jewardzh/nt.jewarinternational.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(554): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home4/jewardzh/nt.jewarinternational.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home4/jewardzh/nt.jewarinternational.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(ParseError))
+#6 /home4/jewardzh/nt.jewarinternational.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(493): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ParseError))
+#7 /home4/jewardzh/nt.jewarinternational.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(138): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ParseError))
+#8 /home4/jewardzh/nt.jewarinternational.com/public/index.php(51): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#9 {main}
+  thrown in /home4/jewardzh/nt.jewarinternational.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 335
